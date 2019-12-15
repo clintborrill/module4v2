@@ -16,7 +16,7 @@ var helloSpeaker = {};
   // helloSpeaker object instead of being a standalone function.
   // See Lecture 52, part 2
   helloSpeaker.speak = function (firstname) {
-    console.log(speakWord + " " + fisrtname);
+    console.log(speakWord + " " + firstname);
   }
 window.helloSpeaker = helloSpeaker;
 // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
